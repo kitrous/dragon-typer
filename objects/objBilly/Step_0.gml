@@ -12,7 +12,7 @@ if (player_input == "gloves"){
 	audio_play_sound(Powerup,5,false);
 	attackHit = true;
 	}
-	
+//Lugar Questions
 	if ((player_input == "kick" && (facing == 1  && global.random_index == 0)) || facing == -1) {
 	sprite_index = Billy_Kick;
 	image_index += 0
@@ -42,11 +42,53 @@ if (player_input == "gloves"){
 	audio_play_sound(Hit,5,false);
 	attackHit = true
 	} 
+//Linda Questions
+if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || facing == -1) {
+	sprite_index = Billy_Kick;
+	image_index += 0
+	image_speed = 0.6;
+	global.lindaHP -= 25
+	global.lindaHit = true;
+	audio_play_sound(Hit,5,false);
+	attackHit = true
+	} 
 	
+	if ((player_input == "problem" && (facing == 1 && global.rand_index1 == 1)) || facing == -1) {
+	sprite_index = Billy_Kick;
+	image_index += 0
+	image_speed = 0.6;
+	global.lindaHP -= 25
+	global.lindaHit = true;
+	audio_play_sound(Hit,5,false);
+	attackHit = true
+	} 
+	
+	if ((player_input == "new york" && (facing == 1 && global.rand_index1 == 2)) || facing == -1) {
+	sprite_index = Billy_Kick;
+	image_index += 0
+	image_speed = 0.6;
+	global.lindaHP -= 25
+	global.lindaHit = true;
+	audio_play_sound(Hit,5,false);
+	attackHit = true
+	} 
+	
+	
+	
+	
+//Miscellaneous
 	if (!attackHit) {
 	global.billyHP -= 25
 	sprite_index = Billy_Hurt;
 	audio_play_sound(Fail,5,false);
 	
+	}
+	if (global.billyHP <= 0){
+	billyDead = true;
+	
+	}
+	if (billyDead) {
+	speed = 0;
+	alarm[1] = 90;
 	}
 }
