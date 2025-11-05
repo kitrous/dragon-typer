@@ -11,6 +11,7 @@ if (player_input == "gloves"){
 	global.lugarHP -= 25
 	audio_play_sound(Powerup,5,false);
 	attackHit = true;
+	alarm[2] = 30;
 	}
 //Lugar Questions
 	if ((player_input == "kick" && (facing == 1  && global.random_index == 0)) || facing == -1) {
@@ -21,6 +22,7 @@ if (player_input == "gloves"){
 	global.lugarHit = true;
 	audio_play_sound(Hit,5,false);
 	attackHit = true;
+	alarm[2] = 30;
 	} 
 	
 	if ((player_input == "punk" && (facing == 1  && global.random_index == 2)) || facing == -1) {
@@ -31,6 +33,7 @@ if (player_input == "gloves"){
 	global.lugarHit = true;
 	audio_play_sound(Hit,5,false);
 	attackHit = true;
+	alarm[2] = 30;
 	} 
 	
 	if ((player_input == "mathematical" && (facing == 1 && global.random_index == 3)) || facing == -1) {
@@ -41,7 +44,15 @@ if (player_input == "gloves"){
 	global.lugarHit = true;
 	audio_play_sound(Hit,5,false);
 	attackHit = true
+	alarm[2] = 30;
 	} 
+	
+	
+	
+	
+	
+	
+	
 //Linda Questions
 if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || facing == -1) {
 	sprite_index = Billy_Kick;
@@ -72,6 +83,12 @@ if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || fa
 	audio_play_sound(Hit,5,false);
 	attackHit = true
 	} 
+	
+	
+	
+	
+	
+	
 	
 	
 	

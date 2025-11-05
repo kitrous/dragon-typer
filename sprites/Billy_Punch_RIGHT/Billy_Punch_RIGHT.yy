@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"Billy_Punch_RIGHT",
   "bboxMode":0,
-  "bbox_bottom":415,
+  "bbox_bottom":399,
   "bbox_left":0,
-  "bbox_right":165,
+  "bbox_right":248,
   "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":416,
+  "height":400,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c7a6a31c-fa2d-4114-8c59-4f7dfddae3c5","blendMode":0,"displayName":"default","isLocked":false,"name":"c7a6a31c-fa2d-4114-8c59-4f7dfddae3c5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -70,7 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdff717e-af1b-4821-a847-c91f0abe1293","path":"sprites/Billy_Punch_RIGHT/Billy_Punch_RIGHT.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fb2e52b1-54f3-4827-b51b-687ae4e0f5be","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdff717e-af1b-4821-a847-c91f0abe1293","path":"sprites/Billy_Punch_RIGHT/Billy_Punch_RIGHT.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fb2e52b1-54f3-4827-b51b-687ae4e0f5be","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":200,
+  "width":300,
 }
