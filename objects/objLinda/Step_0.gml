@@ -40,7 +40,7 @@ image_speed = 0.3;
 
 if (global.lindaHP <= 0) {
 	if (alarm[0] == -1) {
-
+sprite_index = Linda_Dead;
 image_index = 0;
 image_speed = 0.3;
 idle = false;

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sprite25",
+  "%Name":"Linda_Dead",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":200,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":427,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d593db52-58e0-4b03-a8d1-cce514d8ceef","name":"d593db52-58e0-4b03-a8d1-cce514d8ceef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52c71a7a-ce1e-48d1-b406-828adf5827ff","name":"52c71a7a-ce1e-48d1-b406-828adf5827ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":201,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d12d96dd-d13e-4728-971f-659bd26e717a","blendMode":0,"displayName":"default","isLocked":false,"name":"d12d96dd-d13e-4728-971f-659bd26e717a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"67573aa7-0318-4b2c-be61-418293c06949","blendMode":0,"displayName":"default","isLocked":false,"name":"67573aa7-0318-4b2c-be61-418293c06949","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite25",
+  "name":"Linda_Dead",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite25",
+    "%Name":"Linda_Dead",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite25",
+    "name":"Linda_Dead",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d593db52-58e0-4b03-a8d1-cce514d8ceef","path":"sprites/Sprite25/Sprite25.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"829a17eb-896d-4bcd-acc1-817352e361a7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52c71a7a-ce1e-48d1-b406-828adf5827ff","path":"sprites/Linda_Dead/Linda_Dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b3d7479-dc06-42d6-983d-fc32e5c042bf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":428,
 }

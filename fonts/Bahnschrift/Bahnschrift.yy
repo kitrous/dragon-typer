@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"Bahnschrift",
   "parent":{
-    "name":"JUSTINCASEDRAGONTYPER",
-    "path":"JUSTINCASEDRAGONTYPER.yyp",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
