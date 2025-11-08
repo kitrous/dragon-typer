@@ -62,6 +62,7 @@ if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || fa
 	global.lindaHit = true;
 	audio_play_sound(Hit,5,false);
 	attackHit = true
+	alarm[2] = 30;
 	} 
 	
 	if ((player_input == "problem" && (facing == 1 && global.rand_index1 == 1)) || facing == -1) {
@@ -71,7 +72,8 @@ if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || fa
 	global.lindaHP -= 25
 	global.lindaHit = true;
 	audio_play_sound(Hit,5,false);
-	attackHit = true
+	attackHit = 
+	alarm[2] = 30;
 	} 
 	
 	if ((player_input == "new york" && (facing == 1 && global.rand_index1 == 2)) || facing == -1) {
@@ -82,6 +84,7 @@ if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || fa
 	global.lindaHit = true;
 	audio_play_sound(Hit,5,false);
 	attackHit = true
+	alarm[2] = 30;
 	} 
 	
 	
@@ -98,6 +101,7 @@ if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || fa
 	global.billyHP -= 25
 	sprite_index = Billy_Hurt;
 	audio_play_sound(Fail,5,false);
+	alarm[2] = 30;
 	
 	}
 	if (global.billyHP <= 0){
