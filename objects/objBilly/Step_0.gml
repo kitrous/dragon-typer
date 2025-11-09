@@ -47,6 +47,26 @@ if (player_input == "gloves"){
 	alarm[2] = 30;
 	} 
 	
+		if ((player_input == "knuckle sandwich" && (facing == 1 && global.random_index == 4)) || facing == -1) {
+			if (gloves) {
+			sprite_index = Billy_Punch_RIGHT_Glove;
+	image_index += 0
+	image_speed = 0.6;
+	global.lugarHP -= 25
+	global.lugarHit = true;
+	audio_play_sound(Hit,5,false);
+	attackHit = true
+	alarm[2] = 30;		
+			}
+	sprite_index = Billy_Punch_RIGHT;
+	image_index += 0
+	image_speed = 0.6;
+	global.lugarHP -= 25
+	global.lugarHit = true;
+	audio_play_sound(Hit,5,false);
+	attackHit = true
+	alarm[2] = 30;
+	} 
 	
 	
 	
@@ -72,7 +92,7 @@ if ((player_input == "coming" && (facing == 1 && global.rand_index1 == 0)) || fa
 	global.lindaHP -= 25
 	global.lindaHit = true;
 	audio_play_sound(Hit,5,false);
-	attackHit = 
+	attackHit = true
 	alarm[2] = 30;
 	} 
 	

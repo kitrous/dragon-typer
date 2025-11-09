@@ -205,6 +205,7 @@
     {"id":{"name":"Fail","path":"sounds/Fail/Fail.yy",},},
     {"id":{"name":"Hit","path":"sounds/Hit/Hit.yy",},},
     {"id":{"name":"menuthing","path":"sounds/menuthing/menuthing.yy",},},
+    {"id":{"name":"play_sound","path":"sounds/play_sound/play_sound.yy",},},
     {"id":{"name":"Powerup","path":"sounds/Powerup/Powerup.yy",},},
     {"id":{"name":"alsfdkj","path":"sprites/alsfdkj/alsfdkj.yy",},},
     {"id":{"name":"Billy_Hurt_Head","path":"sprites/Billy_Hurt_Head/Billy_Hurt_Head.yy",},},

@@ -164,6 +164,7 @@
     {"name":"__shd_scribble_bake_shadow","order":3,"path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},
     {"name":"Hit","order":1,"path":"sounds/Hit/Hit.yy",},
     {"name":"menuthing","order":3,"path":"sounds/menuthing/menuthing.yy",},
+    {"name":"play_sound","order":4,"path":"sounds/play_sound/play_sound.yy",},
     {"name":"Powerup","order":2,"path":"sounds/Powerup/Powerup.yy",},
     {"name":"alsfdkj","order":26,"path":"sprites/alsfdkj/alsfdkj.yy",},
     {"name":"Billy_Hurt_Head","order":18,"path":"sprites/Billy_Hurt_Head/Billy_Hurt_Head.yy",},
