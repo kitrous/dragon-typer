@@ -47,7 +47,7 @@ if (player_input == "gloves"){
 	alarm[2] = 30;
 	} 
 	
-		if ((player_input == "knuckle sandwich" && (facing == 1 && global.random_index == 4)) || facing == -1) {
+		if ((player_input == "knuckle sandwich"  && global.random_index == 4)) {
 			if (gloves) {
 			sprite_index = Billy_Punch_RIGHT_Glove;
 	image_index += 0
