@@ -6,3 +6,4 @@ draw_sprite(sHealthbar_Border,0,100,100);
 
 draw_sprite(sBilly_Head,0,50,0);
 
+draw_text_scribble(1000,1000,global.pointSystem);

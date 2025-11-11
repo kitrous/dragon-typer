@@ -19,3 +19,7 @@ global.maxBillyHP = global.billyHP;
 
 objBilly.x = x;
 objBilly.y = y;
+
+global.Timer = 5;
+
+global.pointSystem = 0;
